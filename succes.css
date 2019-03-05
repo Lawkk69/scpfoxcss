@@ -35,3 +35,21 @@ body:before {
 .guild-1EfMGQ .guildInner-3DSoA4 a[aria-label="BetterDocs"]{
   display:none;
 }
+
+body:after {
+  content: "Do Not Use Betterdocs";
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  left: 50%;
+  border-radius: 5px;
+  padding: 5px 15px;
+  transform: translate(-50%, -100%);
+  animation: Notif2 4s ease-in-out, CLog 10s infinite linear;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  height: auto;
+  width: auto;
+  z-index: 9997;
+  color: var(--Main-Colour);
+}
