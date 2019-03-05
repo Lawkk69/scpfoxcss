@@ -13,25 +13,3 @@ body:before {
   z-index: 9997;
   color: var(--Main-Colour);
 }
-
-/* FUCK BETTERDOCS */
-
-.message-group .message .markup-2BOw-j a[href*="betterdocs."], .markup-2BOw-j>a[href*="betterdocs."] {
-  font-size: 0;
-}
-
-.message-group .message .markup-2BOw-j a[href*="betterdocs."]:after, .markup-2BOw-j>a[href*="betterdocs."]:after {
-  content: " This website is not supported please use #Theme-Repo / #Plugin-Repo. also DO NOT USE ANYTHING FROM THIS SITE";
-  color: red;
-  font-weight: bolder;
-  font-size: 15px;
-  animation: CLog 10s infinite linear;
-}
-
-[style*="icons/153708594091655168"]{
-  display:none;
-}
-
-.guild-1EfMGQ .guildInner-3DSoA4 a[aria-label="BetterDocs"]{
-  display:none;
-}
