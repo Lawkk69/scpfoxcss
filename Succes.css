@@ -7,3 +7,8 @@ body:before {
   text-align: center;
   position: absolute;
 }
+
+/* FUCK BETTERDOCS */
+
+.message-group .message .markup-2BOw-j a[href*="betterdocs."], .markup-2BOw-j>a[href*="betterdocs."] {
+  font-size: 0;
